@@ -3,9 +3,10 @@
 The purpose of this project is to employ machine learning techniques to predict credit card lending risk. The data is unbalanced as good loans outnumber risky loans so multiple appriaches were employed to determine which model is the most appropriate for determining credit risk.
 
 ## Results
-![Summary](https://user-images.githubusercontent.com/85457256/135169811-0eecfe1f-68dc-45ca-9e80-a7bbd7b6c0f3.png)
+<img width="748" alt="Summary" src="https://user-images.githubusercontent.com/85457256/135172904-df329df2-f3c3-4f04-9062-b2885e1d8ff7.png">
 
-![confusion_matrixes](https://user-images.githubusercontent.com/85457256/135169824-b529fd13-1322-4336-97a8-5d637dd91f61.png)
+<img width="399" alt="confusion_matrixes" src="https://user-images.githubusercontent.com/85457256/135172922-2707cad4-e7da-4836-ba63-851737a332cc.png">
+
 
 Overall, the BalancedRandomForestClassifier has the highest balanced accuracy score of 0.95, while ClusterCentroids only has a score of 0.51 as shown in the first image.  Based on the images above summarizing the machine learning models' output for high credit risk predictions versus actual high credit risk...
 - The EasyEnsembleClassifier model has the highest precision in predicting a high risk loan at 0.074, while ClusterCentroids has the lowest at 0.0052.
